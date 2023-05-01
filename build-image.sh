@@ -1,1 +1,1 @@
-docker build --tag seng-java-gradle .
+docker build --tag dest-java-gradle .

@@ -4,7 +4,7 @@ Github action template for gradle
 # Dockerfile
 The example also contains a Dockerfile with gradle.
 
-The file `build-image.sh` builds the docker image and tags it with the name `seng-java-gradle`.
+The file `build-image.sh` builds the docker image and tags it with the name `dest-java-gradle`.
 It is possible to see the image afterwards by writing `docker images`
 
 The file `run-image.sh` runs the docker image by mounting the current directory into the `application` directory within the container. Afterwards, it executes `gradle build`. within the container.
