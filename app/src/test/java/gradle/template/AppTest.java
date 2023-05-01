@@ -28,7 +28,7 @@ public class AppTest {
 
             String textDataFromFile = stringBuilder.toString().strip();
 
-            assertEquals("HELLO SENG", textDataFromFile);
+            assertEquals("HELLO DEST", textDataFromFile);
         }
     }
 }

@@ -19,3 +19,5 @@ build
 .idea
 
 app/src/test/resources
+
+ignoredResources.txt
