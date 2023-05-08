@@ -35,3 +35,9 @@ application {
     // Define the main class for the application.
     mainClass = 'gradle.template.App'
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'gradle.template.App'
+    }
+}
